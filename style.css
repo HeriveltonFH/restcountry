@@ -1,0 +1,127 @@
+@import url('https://fonts.google.com/specimen/Nunito+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'nunito sans' sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    --fontcolor: hsl(200, 15%, 8%);
+}
+
+.titulo {
+    background-color: #fff;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'nunito sans' sans-serif;
+    font-size: 22px;
+}
+
+#imgMoon {
+    align-items: initial;
+    margin-right: 8px;
+}
+
+.titulo:nth-child(1) {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+#btnChange {
+    margin-right: 15px;
+    outline: none;
+    border: 0;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'nunito sans' sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    --fontcolor: hsl(200, 15%, 8%);
+}
+
+.search-box {
+    position: absolute;
+    top: 15%;
+    bottom: 50%;
+    background: #fff;
+    height: 40px;
+    padding: 1px;
+    margin-left: 55px;
+    margin-top: 25px;
+    border-radius: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #0a1b2d;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: 0.5s;
+    font-family: 'nunito sans';
+}
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #949c9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+    background: white;
+}
+
+.input {
+    height: 34px;
+    width: 200px;
+    background-color: #0a1b2d;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid;
+}
+
+#listRegion {
+    position: absolute;
+    top: 17%;
+    right: 10%;
+    padding: 17px 14px;
+    padding-right: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}

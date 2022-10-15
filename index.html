@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Countries</title>
+    <link rel="stlesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="titulo"><strong>Where in the world?</strong>
+            <button type="button" id="btnChange" onclick="changeTheme()"><img src="design/lua.png" alt="moon" height="20" width="20" id="imgMoon">Dark Mode</button>
+        </div>
+    </header>
+    <main>
+    <section>
+    <div class="search-box">
+        <input type="text" class="search-txt" placeholder="Search for a Country...">
+        <a href="#" class="search-btn">
+        <img src="loupe-svgrepo-com.svg" alt="Loupe" height="25" width="25">
+        </a>
+    </div>
+    </section>
+    <section>
+        <div class="dropDown">
+            <select id="listRegion">
+                <option selected disabled value="">Filter by Region</option>
+                <option>Africa</option>
+                <option>America</option>
+                <option>Asia</option>
+                <option>Europe</option>
+                <option>Oceania</option>
+        </div>
+    </section>
+    </main>
+    <script src="script.js"></script> 
+</body>
+</html>
